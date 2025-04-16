@@ -1,6 +1,6 @@
 
 /* IMPORTS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 
 /* RESET */
 * {
@@ -10,8 +10,8 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(270deg, #ff6347, #e392fe, #ff6347, #e392fe);
+  font-family: 'Comic Neue', cursive;
+  background: linear-gradient(270deg, #ffc0cb, #ffe4e1, #ffb6c1, #ffe4e1);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   min-height: 100vh;
@@ -61,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #e392fe;
+  color: #ffc1e3;
 }
 
 /* HERO */
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 .btn {
-  background-color: #3882f6;
+  background-color: #f4a4c4;
   color: #fff;
   padding: 12px 30px;
   border: none;
@@ -102,11 +102,11 @@ nav a:hover {
 }
 
 .btn:hover {
-  background-color: #2563eb;
+  background-color: #e88abf;
 }
 
 .hero-image {
-  background-color: #6b7280;
+  background-color: #f7cad0;
   width: 300px;
   height: 200px;
   display: flex;
@@ -136,11 +136,11 @@ nav a:hover {
 }
 
 .info-card {
-  border: 2px solid #3882f6;
+  border: 2px solid #f4a4c4;
   border-radius: 8px;
   padding: 30px;
   width: 200px;
-  color: #6b7280;
+  color: #f7cad0;
   background: #f9fafb;
   transition: transform 0.3s ease;
 }
@@ -173,7 +173,7 @@ nav a:hover {
 
 /* CTA SECTION */
 .cta {
-  background-color: #3882f6;
+  background-color: #f4a4c4;
   color: #fff;
   padding: 40px;
   border-radius: 12px;
@@ -196,7 +196,7 @@ nav a:hover {
 
 .cta button {
   background-color: #fff;
-  color: #3882f6;
+  color: #f4a4c4;
   border: none;
   padding: 10px 25px;
   border-radius: 8px;
