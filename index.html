@@ -22,28 +22,46 @@
     <div class="hero-text">
       <h2>Hi, I'm Daniella!</h2>
       <p>I build creative websites and apps to solve real-world problems. Let's make something awesome together!</p>
-      <button class="btn">Explore My Work</button>
+      <button class="btn"><a href="#projects">Explore My Work</a></button>
     </div>
     <div class="hero-image">
-      <img src="images/hero-placeholder.png" alt="Hero image" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="profilepfp.png" alt="Hero image" style="width: 100%; height: auto; border-radius: 8px;">
     </div>
   </section>
   <section class="info-section" id="projects">
     <h3>Featured Projects</h3>
     <div class="info-cards">
-      <div class="info-card">🌐 Career Resource App</div>
-      <div class="info-card">🧪 Elemental Quiz Game</div>
-      <div class="info-card">📖 Pathfinder Tracker</div>
-      <div class="info-card">🎨 Interactive Coloring Books</div>
+      <div class="info-card card-1" onclick="openVideo('animation1.mp4')">
+        <div class="info-title">🧪 Elemental Quiz Game</div>
+      </div>
+
+      <div class="info-card card-2" onclick="openVideo('animation2.mp4')">
+        <div class="info-title">✌️✊✋ RPS Game</div>
+      </div>
+
+      <div class="info-card card-3" onclick="openVideo('animation3.mp4')">
+        <div class="info-title">📖 Registration Form</div>
+      </div>
     </div>
+      
+
+     
+    
+    <!-- Video Modal -->
+    <div id="videoModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center; z-index:1000;">
+      <video id="modalVideo" controls style="max-width:90%; max-height:80%; border:5px solid #f7cad0; border-radius:10px;"></video>
+      <span onclick="closeVideo()" style="position:absolute; top:20px; right:30px; font-size:2rem; color:white; cursor:pointer;">&times;</span>
+    </div>
+
   </section>
   <section class="quote">
-    <p>"When you learn, teach. When you get, give." – Maya Angelou</p>
-    <strong>- Inspired Every Day</strong>
+    <p> “Research shows that you begin learning in the womb and go right on learning until the moment you pass on. Your brain has a capacity for learning that is virtually limitless, which makes every human a potential genius.” <br> <strong> - Michael J. Gelb</strong> </p>
   </section>
   <section class="cta container">
     <div class="cta-text">
       <h4>Want to collaborate?</h4>
+
+      
       <p>I'm always open to exciting opportunities and new challenges. Let's connect!</p>
     </div>
     <a href="contact.html"><button>Contact Me</button></a>
@@ -51,5 +69,7 @@
   <footer>
     <p>&copy; 2025 Daniella Hibbert. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
+
 </body>
 </html>
