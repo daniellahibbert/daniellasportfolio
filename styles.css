@@ -139,7 +139,7 @@ body {
 
 .info-card:hover {
   transform: translateY(-5px);
-  background-size: 110%;
+  background-size: 120%;
 }
 
 .info-card::before {
@@ -148,7 +148,7 @@ body {
   inset: 0;
   background: rgba(0, 0, 0, 0.4); /* Dark overlay */
   z-index: 0;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .info-card > * {
@@ -180,7 +180,7 @@ body {
 }
 
 .info-card {
-  border: 2px solid #f4a4c4;
+  border: 5px solid #f4a4c4;
   border-radius: 8px;
   padding: 30px;
   width: 350px;
