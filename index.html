@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Daniella Hibbert's Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="favicon.png" type="image/png">
-</head>
-<body>
-  <header>
-    <h1>Daniella Hibbert</h1>
-    <nav>
-      <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Hi, I'm Daniella!</h2>
-      <p>I build creative websites and apps to solve real-world problems. Let's make something awesome together!</p>
-      <button class="btn"><a href="#projects">Explore My Work</a></button>
-    </div>
-    <div class="hero-image">
-      <img src="profilepfp.png" alt="Hero image" style="width: 100%; height: auto; border-radius: 8px;">
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daniella Hibbert's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.png" type="image/png">
+  
+    <!-- New Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <h1 class="logo">Daniella Hibbert</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Hi, I'm Daniella 👩🏽‍💻</h2>
+        <p>I’m a Computer Science student and creative developer who loves building user-focused websites and apps. I use code to solve problems and create meaningful experiences—especially for underrepresented communities in tech.</p>
+        <a class="btn hero-btn" href="#projects">🌟 View My Projects</a>
+      </div>
+      <div class="hero-image">
+        <img src="profilepfp.png" alt="Daniella's profile photo">
+      </div>
+    </section>
+  
   </section>
   <section class="info-section" id="projects">
     <h3>Featured Projects</h3>
@@ -62,15 +70,9 @@
       <h4>Want to collaborate?</h4>
 
       
-      <p>I'm always open to exciting opportunities and new challenges. Let's connect!</p>
+      <p>Let's connect!</p>
     </div>
     
-    <form action="https://formspree.io/f/xpwpgwoj" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required><br><br>
-      <input type="email" name="email" placeholder="Your Email" required><br><br>
-      <textarea name="message" placeholder="Your Message" required></textarea><br><br>
-      <button type="submit">Send</button>
-    </form>
 
     <a href="contact.html"><button>Contact Me</button></a>
   </section>
